@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0066FF;
+  text-decoration-thickness: 5px;
+}
+
+body {
+  background-image: linear-gradient(347.95deg, #51B9F3 0%, #2A6F96 100%);
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 41px 100px;
+}
+body header #Header {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+body .hero {
+  background-image: url("hero.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 41px 100px;
+}
+body main p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=output.css.map */

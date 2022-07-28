@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@100&display=swap');
+
+$primaryColor : linear-gradient(347.95deg, #51B9F3 0%, #2A6F96 100%);
+$headerFont: 'Pacifico', cursive;
+$bodyFont: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+a{
+    &:link{
+        text-decoration: none;
+    }
+
+    &:hover{
+        text-decoration: underline;
+        text-decoration-color: #0066FF;
+        text-decoration-thickness: 5px;
+    }
+}
+
+@mixin horizontalContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 41px 100px;
+}
+
+@mixin horizontalGrid {
+    display: grid;
+    justify-content: space-between;
+    padding: 50px 100px 41px 100px;
+}
+
+@mixin verticalContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+body{
+    
+    background-image: $primaryColor;
+    font-family: $bodyFont;
+    font-size: 24px;
+
+    header{
+        @include horizontalContainer();
+
+        #Header{
+            font-family: $headerFont;
+            font-size: 1.5em;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+        }
+    }
+
+    .hero{
+        background-image: url("hero.png");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    main{
+        @include horizontalContainer();
+
+        p{
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .blog{
+
+        }
+    }
+}
