@@ -123,9 +123,21 @@ body footer {
   padding: 2rem 4rem 2rem 4rem;
   background-color: black;
 }
-body footer p {
+body footer div {
+  display: flex;
+  justify-content: space-between;
+}
+body footer div p {
   font-size: 1em;
   margin-bottom: 0.5em;
+}
+body footer button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 0.5rem;
+  background-color: white;
+  color: black;
 }
 body footer img {
   border-radius: 50%;
