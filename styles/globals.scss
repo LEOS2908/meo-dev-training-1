@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'cubano', "brushup", "oldstyle", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #CFC89A;
+}
+
+@font-face {
+  font-family: 'cubano';
+  src: url('/fonts/iCielBCCubano-Normal.woff2'), format('woff2');
+}
+
+@font-face {
+  font-family: 'oldstyle';
+  src: url('/fonts/iCielBCOldStyle-Regular.woff2'), format('woff2');
+}
+
+@font-face {
+  font-family: "brushup";
+  src: url("/fonts/brush-up.woff2"), format("woff2");
+}
+  
