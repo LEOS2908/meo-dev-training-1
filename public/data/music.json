@@ -1,0 +1,19 @@
+[
+    {
+        "link" : "diemxua",
+        "src": "/images/music/picture1.png",
+        "content" : "Diễm xưa"
+    },
+
+    {
+        "link" : "#",
+        "src": "/images/music/picture2.png",
+        "content" : "Ta thấy gì đêm nay"
+    },
+
+    {
+        "link" : "#",  
+        "src": "/images/music/picture3.png",
+        "content" : "Nhìn những mùa thu đi"
+    }
+]

@@ -1,0 +1,26 @@
+.card{
+    width: 30%;
+    height: 90%;
+    a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'oldstyle';
+        font-size: 1.75rem;
+        div{
+            position: relative;
+            width: 100%;
+            height: 100%
+        }
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .card{
+        a{
+            font-size: 1.25rem;
+        }
+    }
+}

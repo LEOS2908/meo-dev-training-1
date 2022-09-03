@@ -21,7 +21,7 @@ const NavigationBar = (props) => {
             <div className={styles.user}>
                 <ul>
                     <li>ĐĂNG NHẬP</li>
-                    <li className={styles.register}>ĐĂNG KÍ</li>
+                    <li className={styles.register}>ĐĂNG KÝ</li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    height: 90rem;
+    margin-top: 3rem;
+
+    .title{
+        height: 5%;
+        width: 100%;
+        padding: 0 8.5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        font-size: 2em;
+        .container1{
+            position: relative;
+            width: 4%;
+            height: 60%;
+        }
+        .container2{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        padding: 0 4rem;
+        height: 50%;
+        width: 100%;
+
+        .part3{
+            width: 50vw;
+            height: 40vw;
+            .picture1{
+                position: relative;
+                width: 100%;
+                height: 20%;
+                margin-bottom: 1rem;
+            }
+            .picture2{
+                position: relative;
+                width: 100%;
+                height: 80%;
+            }
+        }
+
+        .part2{
+            .emptyHeading{
+                height: 20%;
+                width: 100%;
+            }
+            height: 80%;
+            width: 100%;
+            color: #312938;
+            font-family: 'oldstyle';
+            font-size: 1.5vw;
+        }
+
+        .part1{
+            .heading{
+                width: 100%;
+                height: 20%;
+                color: #6B4D35;
+                font-family: 'oldstyle';
+                font-size: 2vw;
+            }
+            width: 100%;
+            height: 80%;
+            color: #312938;
+            font-family: 'oldstyle';
+            font-size: 1.5vw;
+        }
+    }
+
+    .lowerContent{
+        display: flex;
+        padding: 0 4rem;
+        height: 30%;
+        width: 100%;
+
+        .verticalWord{
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            font-family: 'oldstyle';
+            font-size: 1.6rem;
+            height: 100%;
+        }
+
+        .image{
+            width: 20%;
+            height: 100%;
+            div{
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .bottomContent{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            font-family: 'oldstyle';
+            margin-top: 5rem;
+            .title{
+                color: #6B4D35;
+                font-size: 2rem;
+                padding: 0 0 3rem 7rem;
+            }
+
+            .text{
+                padding: 0 0 3rem 7rem;
+                font-size: 1.5rem
+            }
+        }
+    }
+}

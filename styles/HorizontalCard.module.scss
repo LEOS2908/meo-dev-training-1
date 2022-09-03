@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'oldstyle';
+    margin-bottom: 2rem;
+    div{
+        position: relative;
+        width: 60%;
+        height: 100%
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35%;
+        p{
+            
+            font-size: 1.5rem;
+            margin: 0;
+            &.title{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container{
+        .text{
+            p{
+                font-size: 1.25rem;
+                &.title{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

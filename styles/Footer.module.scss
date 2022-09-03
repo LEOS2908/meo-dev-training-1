@@ -1,0 +1,124 @@
+.container{
+    height: 20rem;
+    width: 100%;
+    background-color: #312938;
+    display: flex;
+    .aboutUs{
+        width: 37%;
+        margin: 3rem 10rem 3rem 5rem;
+        .title{
+            font-family: 'cubano';
+            color: #6B4D35;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            font-size: 2rem;
+        }
+        .content{
+            font-family: 'oldstyle';
+            font-weight: 400;
+            color: #CFC89A;
+            font-size: 1.5rem;
+        }
+    }
+
+    .contactUs{
+        width: 18%;
+        margin: 3rem 3rem 0 5rem;
+        .title{
+            font-family: 'cubano';
+            color: #6B4D35;
+            font-weight: 400;
+            font-size: 2rem;
+            width: 100%;
+            height: 10%;
+        }
+        .contactList{
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    .lineContainer{
+        width: 1%;
+        .line{
+            width: 0px;
+            height: 100%;
+            border: 1px dashed #6B4D35;
+        }
+    }
+
+    .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        font-size: 2.5rem;
+        color: #CFC89A;
+        button{
+            margin-top: 3rem;
+            font-family: 'cubano';
+            font-size: 2.5rem;
+            color: #312938;
+            background-color: #CFC89A;
+            border-radius: 80px;
+            width: 13rem;
+        }
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container{
+        height: 20rem;
+        width: 100%;
+        background-color: #312938;
+        display: flex;
+        .aboutUs{
+            width: 37%;
+            margin: 3rem 7rem 3rem 3rem;
+            .title{
+                font-size: 1.5rem;
+            }
+            .content{
+                font-size: 1rem;
+            }
+        }
+    
+        .contactUs{
+            width: 18%;
+            margin: 3rem 3rem 0 3rem;
+            .title{
+                font-size: 1.5rem;
+            }
+        }
+        .lineContainer{
+            width: 1%;
+            .line{
+                width: 0px;
+                height: 100%;
+                border: 1px dashed #6B4D35;
+            }
+        }
+    
+        .register{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            font-size: 2rem;
+            color: #CFC89A;
+            button{
+                margin-top: 3rem;
+                font-family: 'cubano';
+                font-size: 2rem;
+                color: #312938;
+                background-color: #CFC89A;
+                border-radius: 80px;
+                width: 10rem;
+            }
+        }
+    }
+}

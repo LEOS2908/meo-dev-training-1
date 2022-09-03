@@ -10,6 +10,11 @@
     height: 50px;
     font-weight: 900;
     font-family: 'cubano';
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #CFC89A;
+    z-index: 999999;
 
     .logo{ 
         margin-left: 1rem;
@@ -29,6 +34,8 @@
         width: 60%;
         padding: 0;
         margin-right: 11rem;
+        display: flex;
+        justify-content: center;
 
         ul{
             width: 100%;
@@ -56,6 +63,16 @@
                 width: 45%;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container{
+        font-size: 0.9rem;
+        .page{
+            width: 50%;
+            margin-right: 3rem;
         }
     }
 }
